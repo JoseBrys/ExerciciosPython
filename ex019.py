@@ -1,0 +1,5 @@
+n = input('Digite uma Frase: ')
+dividido = n.split()
+print('quantidade de A"s dessa frase é: ',n.count('a'))
+print('a primeira vez em que o A aparece é no caracter de numero', n.find('a'))
+print('a ultima vez em que o A aparace é no caracter de numero', n.rfind('a'))

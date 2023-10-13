@@ -1,0 +1,7 @@
+frase = input('Digite seu nome completo: ')
+dividido = frase.split()
+print(frase.upper())
+print(frase.lower())
+print(len(''.join(dividido)))
+print(dividido[0])
+print('Seja Bem Vinda '+ dividido[0,3])
